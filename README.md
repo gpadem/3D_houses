@@ -93,6 +93,8 @@ This python file gives the outcome in one go. If you run the program you will go
 
 This Jupyter notebook is where the results of each step of the code is more visible. If you would like to inspect more on the outcomes of the different parts of the code, I recommend the use of teh notebook.
 
+![newplot (3)](https://user-images.githubusercontent.com/57108538/109167923-98ea2b00-777e-11eb-97aa-32678c8f4e3b.png)
+
 ### Development Branch
 
 The development branch consists of notebooks and python files that are the sketches of the used code to get the final python file and final notebook in the main branch. In these sketches it is possible to see different approaches to reach a result as well as failed trials to automate the process to read the zip files without downloading to have a more generic code for everyone to use. It is only recommended to look at the development branch if one wants to see different approaches and develop them further.
