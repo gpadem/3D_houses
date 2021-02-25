@@ -46,14 +46,16 @@ raster_dsm = rxr.open_rasterio(image_dsm)
 raster_chm = raster_dsm - raster_dtm
 
 
-raster_chm.plot.hist()
-plt.show()
+# raster_chm.plot.hist()
+# plt.show()
 
-print(np.nanmin(raster_chm))
-print(np.nanmax(raster_chm))
+# print(np.nanmin(raster_chm))
+# print(np.nanmax(raster_chm))
 
-fig, ax = plt.subplots(figsize=(10, 5))
-raster_chm.plot(cmap="Greens")
-ax.set(title="Canopy Height Model")
-ax.set_axis_off()
-plt.show()
+# fig, ax = plt.subplots(figsize=(10, 5))
+# raster_chm.plot(cmap="Greens")
+# ax.set(title="Canopy Height Model")
+# ax.set_axis_off()
+# plt.show()
+
+print(type(raster_dtm))
