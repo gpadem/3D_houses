@@ -16,10 +16,12 @@ Consolidate the knowledge in Python, specifically in :
 + NumPy
 + Pandas
 + Matplotlib
++ RasterIO
++ Plotly
 
 ## Learning Objectives
 
-+ to be able to search and implement new librairies
++ to be able to search and implement new libraries
 + to be able to read and use shapefiles
 + to be able to read and use geoTIFFs
 + to be able to render a 3D plot
@@ -27,7 +29,7 @@ Consolidate the knowledge in Python, specifically in :
 
 ## The Mission
 
-LIDAR PLANES, an active company in the Geospatial industy would like to use their data to launch a new branch in the insurance business. So, they require to build a solution with their data to model a house in 3D with only a home address.
+LIDAR PLANES, an active company in the Geospatial industry would like to use their data to launch a new branch in the insurance business. So, they require to build a solution with their data to model a house in 3D with only a home address.
 Their data is acquired by the use of LIDAR which is a method to measure distance using light. The device will illuminate a target with a laser light and a sensor will measure the reflection. Differences in wavelength and return times will be used to get 3D representations of an area.
 
 The data delivered by the company are the following:
@@ -63,7 +65,7 @@ In the new environment the following packages were installed(see the parantheses
 
 Jupyter Notebook was installed and launched from the Conda navigator activated in the working environment.
 
-The zip files on geopunt.be were downloaded and the tiff files inside were extracted to the folder k under the project folder created called geoproject. Because of connection problems only 5 zones were possible to download. It is importan to keep in mind that the code has parts that need the exact path of the files. It is important to change these to your local file or folder where you have the tiff files to be able to run the code.
+The zip files on geopunt.be were downloaded and the tiff files inside were extracted to the folder **k** under the project folder created called **geoproject**. Because of connection problems only 5 zones were possible for download. It is important to keep in mind that the code has parts that need the exact path of the files. It is important to change these to your local file or folder where you have the tiff files to be able to run the code.
 
 ## THE REPOSITORY
 
@@ -91,9 +93,11 @@ This python file gives the outcome in one go. If you run the program you will go
 
 #### final_notebook.ipynb
 
-This Jupyter notebook is where the results of each step of the code is more visible. If you would like to inspect more on the outcomes of the different parts of the code, I recommend the use of teh notebook.
+This Jupyter notebook is where the results of each step of the code is more visible. If you would like to inspect more on the outcomes of the different parts of the code, I recommend the use of the notebook.
 
-![newplot (3)](https://user-images.githubusercontent.com/57108538/109167923-98ea2b00-777e-11eb-97aa-32678c8f4e3b.png)
+Here you can see an example 3D plot outcome. 
+
+![newplot (1)](https://user-images.githubusercontent.com/57108538/109167960-a30c2980-777e-11eb-8ec6-08c482b02f8a.png)
 
 ### Development Branch
 
